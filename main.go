@@ -7,6 +7,7 @@ import (
 func main() {
 	arr := []int{2, 7, 9, 3, 1}
 	fmt.Println(rob(arr))
+	test()
 }
 
 func rob(nums []int) int {
@@ -24,6 +25,10 @@ func rob(nums []int) int {
 		}
 	}
 	return nums[0]
+}
+
+func test() string {
+	return ""
 }
 
 func mostPoints(questions [][]int) int64 {
